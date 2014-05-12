@@ -132,6 +132,7 @@ body{
   display: inline-block;
   width: 246px;
   height: 90px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 14px 20px;
   background: url(../img/message_big.png) no-repeat left top;
