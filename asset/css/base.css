@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* @base */
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button{margin:0;padding:0;}
-body,button,input,select,textarea{font-size:12px;font-family:NSimSun,SimSun;}
+body,button,input,select,textarea{font:12px/1.5 tahoma,arial,\5b8b\4f53;}
 input,select,textarea{font-size:100%;}
 table{border-collapse:collapse;border-spacing:0;}
 th{text-align:inherit;}
@@ -17,8 +17,8 @@ q:before,q:after{content:'';}
 sup{vertical-align:text-top;}
 sub{vertical-align:text-bottom;}
 em{font-style:normal;}
-a:hover{text-decoration:underline;}
 ins,a{text-decoration:none;}
+a:hover{text-decoration:underline;}
 
 .fn-clear:after{visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0;}
 .fn-clear{*zoom:1;}
@@ -26,5 +26,3 @@ ins,a{text-decoration:none;}
 .fn-left,.fn-right{display:inline;}
 .fn-left{float:left;}
 .fn-right{float:right;}
-
-.fn-img{display:block;width:100%;}
